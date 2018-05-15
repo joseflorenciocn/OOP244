@@ -1,0 +1,10 @@
+
+In line number 39 of your output:
+The output should be:
+  ?:506.77 = 506.77
+But your output is: 
+  ?:742.96 = 742.96
+    ^
+----|
+Professor's character ASCII code: hex(35), dec(53)
+un-matched character ASCII code: hex(37), dec(55)
