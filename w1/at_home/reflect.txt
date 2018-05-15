@@ -1,0 +1,18 @@
+
+
+
+1) Namespace is a scope for the entities that it encloses. The purpose is organize the code into groups.
+
+2) The programs often need to use functions defined in one place, it could be inside the .cpp, but using the header files we can compile the programs without need the function definition inside .cpp and the program will be more organized.
+
+3) Header files contains only declarations, compiling them it will not achieve anything useful.
+
+4) We will never include the .cpp files because the include is just a link to combine the files, if someone include a .cpp file and this file is big the time to compile will be colossal.
+
+5) I learned in this workshop how to organize my program in files (.h and .cpp), how can I protect my code to avoid call multiple times the same header, and how namespace can be used.
+
+Quiz 1 Reflection
+
+1 - Encapsulation: Binds together the data and functions that manipulate the data and keeps both safe from outside interference and misuse.
+2 - Inheritance: Allow us to define a class in terms of another class to make it easy create and maintain the app and to reuse the code functionality and the implementation became faster.
+3 - Polymorphism: Means that a call to a member function will cause a different function to be executed depending on the type of object that call the function. 
