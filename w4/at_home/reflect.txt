@@ -1,0 +1,24 @@
+Workshop 4 - Jose Florencio Coelho Neto ID 131650160
+
+1) To avoid undefined behavior or broken objects, we need to initialize each object to a well-defined state from the time of its creation. This state is called Safe Empty State.
+If we use constructors to initialize the object with some valuable data (not empty) it will be another safe state as the empty safe state.
+
+2) Using functions to do one action regurlary used inside the code. For example to set all the elements to empty, I create one function to set every element to empty, so when I need set to empty state i call the fucntion.
+
+3) Because the function is passing by reference or Alias. When we use the reference of the object we have acess to the object.
+
+4) I dont use strncpy. I used strcpy and add _CRT_SECURE_NO_WARNINGS at preprocessor definition. But if I used strncpy, I need to add the number of characters of the string.  
+
+5) The use of constructors and destructors.
+
+Quiz Reflection.
+
+1) A class when you need to use the binary arithmetic, assignment, unary, relational. For example a class made by students and we need to add one extra grade to the object.
+Overload operators are functions that add new features to the regular operators for use with the class members.
+
+2) Unary: ++ or --operator
+Binary: + or - or * or / operator
+Ternary: ?: operator
+
+3) Using the keyword THIS 
+
