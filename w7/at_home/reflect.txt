@@ -1,0 +1,13 @@
+
+
+1) No, the Hero class doesnt need to know about the SuperHero class because
+it is the base class, it is in top of hierarchy and the SuperHero class is a class derived from it.
+The base class only contains the instance variables of the base class.
+
+2) Yes, the SuperHero class os derived from the Hero class. It contains the instance variables
+of the base class and those of the derived class.
+
+3)Ancient Battle!, because the fight of a Hero (base class) against a SuperHero (derived class) only uses the 
+variables of the base class.
+
+4)Yes, both are valid becase the overload operator returns a valid class.
