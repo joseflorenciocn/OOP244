@@ -1,0 +1,12 @@
+
+1) Because we can't change the size of the existing array of dinamic memory allocated. We need allocate a new array with the new size, copy the values and than deallocate the older array.
+
+2) We do not have memory leak. When we use the delete operator, we deallocate the dynamic memory for whole object, so the memory allocated to the kingdom names will be deallocated too.
+
+3) Because the compiler distinguishes different meanings by differing parameter lists. For each identifier and parameter list combination, C++ compilers determine the definition to select by matching the argument types in the function call to the parameters types in the definition.
+
+4) I've learned about overload functions, how can a compiler can distinguish the use of a function with same name but diferent purpose. Also, I've learned how to allocate and deallocate dynamic memory and a little bit more about array pointers.
+
+QUIZ REFLECTION
+
+I did the QUIZ REFLECTION of #Quiz1 in the workshop 1 reflect.txt.
