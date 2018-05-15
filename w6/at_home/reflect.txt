@@ -1,0 +1,10 @@
+REFLECT
+
+1)Because if we dont check the deallocation statement would release the memory holding the resource data and we would lose access to source resource.
+
+2) Doing a function for the part of code that will be used many times.
+
+3) I learned how to create copy constructor and copy assignment.
+
+
+
