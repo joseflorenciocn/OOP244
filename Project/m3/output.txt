@@ -1,0 +1,28 @@
+Script started on Thu 14 Dec 2017 04:22:15 PM EST
+jcoelho-neto@matrix:~/OOP244/Project/m3> ms3
+Linear: one two 
+As is: 
+one
+two
+
+Enter the following: 
+three<ENTER>
+four<ENTER>
+Ctrl^D<ENTER>
+
+three
+four
+one two three four 
+one
+two
+three
+four
+
+sku match
+non-perishable < perishable
+45|32|131|32
+113.5
+jcoelho-neto@matrix:~/OOP244/Project/m3> exit
+exit
+
+Script done on Thu 14 Dec 2017 04:22:49 PM EST
