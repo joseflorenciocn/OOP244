@@ -1,0 +1,19 @@
+
+1) In our program the size of each C-style character string is max_name_lenght (40 characters) + 1. This +1 is because we need allocate space for the special character 'null terminator' (\0) which is used to indicate the end of the string.
+
+2) Because C++ allows overload functions, functions with same name and diferent meanings. C++ refers to functions first and foremost by their identifier and distinguishes different meanings by differing parameter lists.
+
+3) This workshop i learned how to use overload functions, understand more about dinamyc memory and their initialization and how to print the amount of two digits from a varaiable.
+
+
+	QUIZ 2 REFLECTION
+
+1) Queries are the accessor methods, which report the state of the object.
+Modifiers are the mutator methods, which change the state of the object. 
+So the difference between them is, a query only show the state of the object without change it, and a modifier change the state.
+
+2) Constructors are a mechanism for initializing data members at creation-time. 
+
+3) Destructors are a mechanism for tidying up at the end of an object's lifetime.  An object with dynamically allocated memory needs to deallocate that memory before going out of scope.
+
+4) If we don't declare a constructor in the class definition, the compiler inserts a default no-argument constructor with an empty body, but if the class definition includes the prototype for a constructor with some parameters but does not include the prototype for a no-argument default constructor, the compiler does not insert an empty-body, no-argument default constructor. 
