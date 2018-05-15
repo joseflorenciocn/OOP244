@@ -1,0 +1,16 @@
+Reflect.txt 
+
+1) An abstract class is a base class that defines an interface, 
+while a concrete class is a derived class that implements that interface.  
+The abstract class identifies the member functions that the class hierarchy 
+exposes to its clients and is the gateway to testing the derived classes in 
+its own inheritance hierarchy.  Each concrete class gives a specific meaning 
+to the interface.
+
+2) The credit and debit function is shadowing from iAccount by Account and ChequingAccount,
+ The monthEnd and display function is shadowing from iAccount by SavingsAccount and ChequingAccount
+and CreateAccount function is shadowing form iAccount by Allocator.
+
+3) I have learn in this workshop how to use multiples files and derived classes 
+from the base class, shadow functions and pointers to a class. 
+Also, how to refine my output using precision.
