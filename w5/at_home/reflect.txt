@@ -1,0 +1,8 @@
+
+1) Because th e operator + is a post-fix operator that returns a copy of the current object as it was before any changes took effect.
+
+2) Always that we use the overload operator += we will have a temporary object.
+
+3) The simplification was in operands: +, *, +=, == and != that now allow the use of my class.
+
+4) I learned how to overload operator to be used in class type. 
